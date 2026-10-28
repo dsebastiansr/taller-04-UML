@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Usuario {
     protected String usuario;
     protected String contrasena;
@@ -5,6 +7,8 @@ public class Usuario {
     protected String apellido;
 
     public Usuario() { }
+
+    private List<Incidente> incidentes;
 
     protected boolean logIn(){
         return true;

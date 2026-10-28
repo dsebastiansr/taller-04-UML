@@ -10,6 +10,8 @@ public class ActividadSumativa {
 
     public ActividadSumativa() {};
 
+    private Curso curso;
+
     public String getId() {
         return id;
     }

@@ -15,6 +15,8 @@ public class Incidente {
         return id;
     }
 
+    private Usuario responsable;
+
     public void setId(int id) {
         this.id = id;
     }

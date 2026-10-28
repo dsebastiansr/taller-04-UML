@@ -9,6 +9,8 @@ public class Foro {
         this.numeroDeComentarios = numeroDeComentarios;
     }
 
+    private Curso curso;
+
     public String getId() {
         return id;
     }

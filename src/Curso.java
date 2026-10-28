@@ -1,3 +1,6 @@
+import java.security.PrivateKey;
+import java.util.List;
+
 public class Curso {
     private String id;
     private String nombre;
@@ -8,6 +11,12 @@ public class Curso {
         this.nombre = nombre;
         this.estadoDisponible = estadoDisponible;
     }
+
+    private List<Estudiante> estudiantesInscritos;
+    private List<Estudiante> estudiantesEnEsperaDeInscripccion;
+    private Profesor responsable;
+    private List<Foro> foros;
+    private List<ActividadSumativa> actividadesSumativas;
 
     public String getId() {
         return id;
